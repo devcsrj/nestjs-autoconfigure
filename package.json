@@ -1,10 +1,10 @@
 {
-  "name": "node-typescript-boilerplate",
+  "name": "@devcsrj/nestjs-autoconfigure",
   "version": "0.0.0",
-  "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
+  "description": "spring boot's auto-configuration powers as a nestjs module\n\nResources\n",
   "type": "module",
   "engines": {
-    "node": ">= 18.12 <19"
+    "node": ">= 18.12"
   },
   "devDependencies": {
     "@types/jest": "~29.5",
@@ -33,7 +33,7 @@
     "prettier": "prettier --config .prettierrc --write .",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
+  "author": "Reijhanniel Jearl Campos <devcsrj@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "tslib": "~2.6"
